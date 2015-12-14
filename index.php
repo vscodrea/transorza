@@ -85,6 +85,7 @@
             </ul>
           </div>
         </section>
+		<!--
         <section class="well ins1">
           <div class="container hr">
             <ul class="row product-list">
@@ -133,6 +134,7 @@
             </ul>
           </div>
         </section>
+	-->
         <section class="well1">
           <div class="container">
             <div class="row">
@@ -244,7 +246,7 @@
                     <div class="icon2 fa-map-marker"></div>
                   </div>
                   <div class="box_cnt__no-flow">
-                    <address>4578 Marmora Road,Glasgow<br/> D04 89GR</address>
+                    <address>Giulesti nr 450, Jud. Maramures, Romania<br/> D04 89GR</address>
                   </div>
                 </div>
                 <div class="box">
@@ -275,19 +277,13 @@
                   </div>
                   <div class="box_cnt__no-flow"><a href="#">Follow on facebook</a></div>
                 </div>
-                <div class="box">
-                  <div class="box_aside">
-                    <div class="icon2 fa-twitter"></div>
-                  </div>
-                  <div class="box_cnt__no-flow"><a href="#">Follow on Twitter</a></div>
-                </div>
               </li>
             </ul>
           </div>
         </section>
         <section>
           <div class="container">
-            <div class="copyright">Business Company © <span id="copyright-year"></span>.&nbsp;&nbsp;<a href="index-5.html">Privacy Policy</a>More <a rel="nofollow" href="http://www.templatemonster.com/category/business-web-templates/" target="_blank">Business Website Templates at TemplateMonster.com</a>
+             <div class="copyright">Trans Orza S.R.L © <span id="copyright-year"></span>.&nbsp;&nbsp;<a href="index-5.php">Politica de Confidentialitate</a>
             </div>
           </div>
         </section>
