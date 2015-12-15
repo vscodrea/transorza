@@ -76,7 +76,9 @@ input[type='button']::-moz-focus-inner {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
-
+.header_container{
+	position: relative;
+}
 /*===============   Fluid grid    ====================*/
 .container-fluid [class*="grid_"] {
   float: left;

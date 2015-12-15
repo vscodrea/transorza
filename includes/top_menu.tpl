@@ -31,6 +31,22 @@
                 <li class="active"><a href="index-4.php">Contact</a>
                 </li>
               </ul>
+			  <ul class="language_menu">
+				<li class="current_language">
+					<a href="#" class="language_menu_caption">Deutsch <img src="http://awpqa.hxanh.servertrust.com/v/vspfiles/assets/images/germany-flag-icon.png"></a>
+					<ul>
+						<li><a href="#">Some Action 1</a></li>
+						<li><a href="#">Some Action 2</a></li>
+						<li><a href="#">Some Action 3</a></li>
+						<li><a href="#">Some Action 4</a></li>
+					</ul>
+				</li>
+			 </ul>
+			<script type="text/javascript">
+				$(document).ready(function() {
+					$('.language_menu').dropit();
+				});
+			</script>
             </nav>
           </div>
 </div>

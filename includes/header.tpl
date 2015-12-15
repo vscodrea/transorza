@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="css/google-map.css">
     <link rel="stylesheet" href="css/mailform.css">
     <script src="js/jquery.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
 	<script src="js/dropit.js"></script>
     <script src="js/jquery-migrate-1.2.1.js"></script><!--[if lt IE 9]>
     <html class="lt-ie9">
