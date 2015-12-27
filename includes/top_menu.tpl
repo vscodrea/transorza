@@ -33,12 +33,17 @@
               </ul>
 			  <ul class="language_menu">
 				<li class="current_language">
-					<a href="#" class="language_menu_caption">Deutsch <img src="http://awpqa.hxanh.servertrust.com/v/vspfiles/assets/images/germany-flag-icon.png"></a>
+					<a href="#" class="language_menu_caption"><span class="language_menu_label">Deutsch</span> <img src="images/de-flag-icon.png"></a>
 					<ul>
-						<li><a href="#">Some Action 1</a></li>
-						<li><a href="#">Some Action 2</a></li>
-						<li><a href="#">Some Action 3</a></li>
-						<li><a href="#">Some Action 4</a></li>
+						<li>
+							<a href="http://localhost/transorza/index-3.php" class="language_menu_caption"><span class="language_menu_label">English </span><img src="images/uk-flag-icon.png"></a>
+						</li>
+						<li>
+							<a href="#" class="language_menu_caption"><span class="language_menu_label">Deutsch </span><img src="images/de-flag-icon.png"></a>
+						</li>
+						<li>
+							<a href="#" class="language_menu_caption"><span class="language_menu_label">Română </span><img src="images/ro-flag-icon.png"></a>
+						</li>
 					</ul>
 				</li>
 			 </ul>
