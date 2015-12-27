@@ -68,7 +68,6 @@
 						var html_code = $(this).html();
 						$('.current_language > a').html(html_code);
 						var href_attr = $(this).children('a').first().attr('href');
-						alert(uneval(href_attr));
 						if (href_attr != '' &&  href_attr != '#'){
 							window.location = href_attr;
 						}
