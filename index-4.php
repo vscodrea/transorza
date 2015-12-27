@@ -2,7 +2,8 @@
 <html lang="en">
   <?php 
 	include_once('./libs/autoload.php');
-	include_once "./includes/header.tpl"; 
+	include_once "./includes/header.tpl";
+			
 	?>
   
   <body>
@@ -38,8 +39,9 @@
 							<p>437160 Comuna Giulesti nr 450 Jud. Maramures</p>
 						</li>
 					</ul> -->
-					<iframe width="640" height="360" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.fr/maps?f=q&amp;source=s_q&amp;geocode=&amp;q=47.831298,23.936924&amp;ll=47.831313,23.936792&amp;sspn=0.010484,0.01929&amp;ie=UTF8&amp;aq=&amp;sll=47.831313,23.936792&amp;t=m&amp;z=14&amp;iwloc=&amp;output=embed">
-                                    </iframe>
+					<iframe width="640" height="360" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" 
+						src="https://maps.google.fr/maps?f=q&source=s_q&hl=ro&geocode=&q=Giulesti, Romania, Trans Orza&ll=47.831313,23.936792&sspn=0.010484,0.01929&ie=UTF8&aq=&sll=47.831313,23.936792&t=m&z=14&iwloc=&output=embed">
+					</iframe>
                 </div>
               </div>
               <div class="grid_6">

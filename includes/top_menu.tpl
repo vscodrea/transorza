@@ -2,10 +2,10 @@
     <div class="container">
          <nav class="nav">
             <ul data-type="navbar" class="sf-menu">
-				<li>
+				<li <?php if ('index.php' == $scriptName){?>class="active"<?php };?>>
 					<a href="./">Acasa</a>
                 </li>
-                <li>
+                <li <?php if ('index-1.php' == $scriptName){?>class="active"<?php };?>>
 					<a href="index-1.php">Despre noi</a>
 					<ul>
 						<li><a href="#">Lorem ipsum dolor</a></li>
@@ -24,11 +24,11 @@
 						<li><a href="#">Ut enim ad minim</a></li>
 					</ul>
                 </li>
-                <li><a href="index-2.php">Galerie foto</a>
+                <li <?php if ('index-2.php' == $scriptName){?>class="active"<?php };?>><a href="index-2.php">Galerie foto</a>
                 </li>
-                <li><a href="index-3.php">Servicile noastre</a>
+                <li <?php if ('index-3.php' == $scriptName){?>class="active"<?php };?>><a href="index-3.php">Servicile noastre</a>
                 </li>
-                <li class="active"><a href="index-4.php">Contact</a>
+                <li <?php if ('index-4.php' == $scriptName){?>class="active"<?php };?>><a href="index-4.php">Contact</a>
                 </li>
               </ul>
 			  <ul class="language_menu">
