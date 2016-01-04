@@ -5,6 +5,7 @@
 	include_once "./includes/header.tpl"; 
 	?>
   <body>
+	
     <div class="page">
       <!--
       ========================================================
@@ -14,6 +15,7 @@
       
       -->
       <header>
+		
         <?php
 			include_once "./includes/title.tpl";
 			include_once "./includes/top_menu.tpl";
@@ -36,12 +38,11 @@
                 </div>
               </div>
               <div class="grid_6">
-                <h2>Film de prezentare</h2>
+                <h2><?php get_wording('page_about_us_film_title');?></h2>
                 <div class="row">
                   <div class="grid_3">
                     <dl class="info">
-                     Va invitam sa urmariti un scurt film de prezentare a noastra si a activitatii noastre.
-                      
+                    <?php get_wording('page_about_us_film_description');?>                    
                     </dl>
                   </div>
                 
@@ -52,13 +53,13 @@
         </section>
         <section class="well1 ins3">
           <div class="container">
-            <h2>Cine  suntem</h2>
+            <h2><?php get_wording('page_about_us_who_are_we_title');?></h2>
             <div class="row off1">
               <div class="grid_6">
-                <h3>Despre noi</h3>
+                <h3><?php get_wording('page_about_us_about_us_subtitle');?></h3>
                 <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatu. Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt. Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna. Suspendisse commodo tempor sagittis!<br/><br/>In justo est, sollicitudin eu scelerisque pretium, placerat eget elit. Praesent faucibus rutrum odio at rhoncus. Pellentesque vitae tortor id neque fermentum pretium.</p>
                 <hr>
-                <h3>Ce va oferim </h3>
+                <h3><?php get_wording('page_about_us_what_we_offer_subtitle');?></h3>
                 <div class="row">
                   <div data-wow-delay="0.2s" class="grid_3 wow fadeInLeft"><img src="images/page-2_img01.jpg" alt=""></div>
                   <div class="grid_3 wow fadeInLeft"><img src="images/page-2_img02.jpg" alt=""></div>
@@ -66,7 +67,7 @@
                 <p>Nam justo elit, dictum id tempus a, ultricies tempus lacus. Nunc purus nibh; eleifend eget facilisis ac, sagittis non tortor. Vivamus eu enim a orci accumsan tincidunt ut ut elit. Vestibulum nisi orci, rutrum ac auctor non, viverra et magna?</p>
               </div>
               <div class="grid_6">
-                <h3>Echipa noastra</h3>
+                <h3><?php get_wording('page_about_us_our_team_subtitle');?></h3>
                 <div class="row">
                   <div class="grid_2 wow fadeInRight"><img src="images/page-2_img03.jpg" alt=""><img src="images/page-2_img06.jpg" alt=""></div>
                   <div data-wow-delay="0.2s" class="grid_2 wow fadeInRight"><img src="images/page-2_img04.jpg" alt=""><img src="images/page-2_img07.jpg" alt=""></div>
@@ -109,6 +110,7 @@
           </div>
         </section>
       </footer>
+	  
     </div>
     <script src="js/script.js"></script>
   </body>

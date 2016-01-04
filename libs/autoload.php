@@ -1,5 +1,6 @@
 <?php
 require_once 'wordingHelper.php';
+include_language_file();
 
 //create the url and the script name variables
 $url = $_SERVER['REQUEST_URI'];

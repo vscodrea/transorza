@@ -50,7 +50,7 @@
 
         <section class="well1 ins2 mobile-center">
           <div class="container">
-            <h2>Galerie foto</h2>
+            <h2><?php get_wording('page_photo_gallery_title');?></h2>
 			<br />
 			<br />
 			<div class="my-gallery" itemscope itemtype="http://schema.org/ImageGallery">

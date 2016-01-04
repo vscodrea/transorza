@@ -2,6 +2,7 @@
     <title><?php get_wording('head_home_title');?></title>
     <meta charset="utf-8">
     <meta name="format-detection" content="telephone=no">
+	<meta name="robots" content="noindex">
     <link rel="icon" href="images/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/grid.css">
 	<link rel="stylesheet" href="css/dropit.css">

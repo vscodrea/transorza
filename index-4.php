@@ -45,21 +45,21 @@
                 </div>
               </div>
               <div class="grid_6">
-                <h3>Informatii Firma</h3>
+                <h3><?php get_wording('page_contact_title');?></h3>
                 <div class="row">
                   <div class="grid_3">
                     <dl class="info">
-                      <dt>Nume</dt>
+                      <dt><?php get_wording('page_contact_label_company_name');?></dt>
                       <dd>SC TRANS ORZA SRL</dd>
-                      <dt>Adresa</dt>
-                      <dd>Comuna Giulesti, Sat Giulesti nr 450 </br> Jud. Maramures</dd>
-                      <dt>Cod Postal</dt>
+                      <dt><?php get_wording('page_contact_label_company_address');?></dt>
+                      <dd><?php get_wording('page_contact_text_company_address');?></dd>
+                      <dt><?php get_wording('page_contact_label_company_zipcode');?></dt>
                       <dd>437160</dd>
                     </dl>
                   </div>
                   <div class="grid_3">
                     <dl class="info">
-                      <dt>Telefon & Email</dt>
+                      <dt><?php get_wording('page_contact_label_company_phone_email');?></dt>
                       <dd>
                          <ul class="row contact-list">
 							  <li class="grid_4">
@@ -98,7 +98,7 @@
         
         <section class="well1">
           <div class="container">
-            <h2>Formular de contact</h2>
+            <h2><?php get_wording('page_contact_label_contact_form');?></h2>
             <form method="post" action="bat/rd-mailform.php" class="mailform off2">
               <input type="hidden" name="form-type" value="contact">
               <fieldset class="row">
@@ -115,7 +115,7 @@
                   <textarea name="message" placeholder="Mesaj:" data-constraints="@NotEmpty"></textarea>
                 </label>
                 <div class="mfControls grid_12">
-                  <button type="submit" class="btn">Trimite</button>
+                  <button type="submit" class="btn"><?php get_wording('page_contact_label_submit_form');?></button>
                 </div>
               </fieldset>
             </form>
