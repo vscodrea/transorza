@@ -30,7 +30,7 @@
       <main>
         <section class="camera_container">
           <div id="camera" class="camera_wrap">
-            <div data-src="http://www.abbaequipmentleasing.com/images/truck.jpg">
+            <div data-src="images/slider/page-1_slide01.jpg">
               <div class="camera_caption fadeIn">
                 <div class="container">
                   <div class="row">
@@ -39,7 +39,7 @@
                 </div>
               </div>
             </div>
-            <div data-src="images/page-1_slide02.jpg">
+            <div data-src="images/slider/page-1_slide02.jpg">
               <div class="camera_caption fadeIn">
                 <div class="container">
                   <div class="row">
@@ -48,7 +48,34 @@
                 </div>
               </div>
             </div>
-            <div data-src="images/page-1_slide03.jpg">
+            <div data-src="images/slider/page-1_slide03.jpg">
+              <div class="camera_caption fadeIn">
+                <div class="container">
+                  <div class="row">
+                    <div class="preffix_6 grid_6">A wide range of global business information</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+			<div data-src="images/slider/page-1_slide04.jpg">
+              <div class="camera_caption fadeIn">
+                <div class="container">
+                  <div class="row">
+                    <div class="preffix_6 grid_6">A wide range of global business information</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+			<div data-src="images/slider/page-1_slide05.jpg">
+              <div class="camera_caption fadeIn">
+                <div class="container">
+                  <div class="row">
+                    <div class="preffix_6 grid_6">A wide range of global business information</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+			<div data-src="images/slider/page-1_slide06.jpg">
               <div class="camera_caption fadeIn">
                 <div class="container">
                   <div class="row">
