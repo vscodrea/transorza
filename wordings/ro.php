@@ -3,7 +3,7 @@
 	//head	
 	$wordingArray['head_title'] = 'Trans Orza';
 	$wordingArray['head_subtitle'] = 'Transporturi rutiere de marfuri.';
-	$wordingArray['head_phone'] = '+400-2345-679';
+	$wordingArray['head_phone'] = '+40 768 101 010';
 	$wordingArray['head_page_in_progress'] = 'Pagina in lucru. Continutul acestei pagini este demonstrativ.Vom reveni.';
 	//heade menu
 	$wordingArray['head_menu_home'] = 'Acasa';

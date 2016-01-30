@@ -3,7 +3,7 @@ global $wordingArray;
 // head
 $wordingArray['head_title'] = 'Trans Orza';
 $wordingArray['head_subtitle'] = 'Truck transport services – full speed ahead';
-$wordingArray['head_phone'] = '+ 400-2345-679';
+$wordingArray['head_phone'] = '+40 768 101 010';
 $wordingArray['head_page_in_progress'] = 'Page in progress. Content on this page is for demo purposes.We will be back soon.';
 // Head menu
 $wordingArray['head_menu_home'] = 'Home';

@@ -253,7 +253,7 @@ var o = $('#camera');
         $(document).ready(function () {
             o.owlCarousel({
                 margin: 30,
-                smartSpeed: 450,
+                smartSpeed: 1150,
                 loop: true,
                 dots: true,
                 dotsEach: 1,
