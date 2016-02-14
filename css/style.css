@@ -737,9 +737,10 @@ table tr:nth-child(even) {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   margin-top: 7px;
-  padding: 30px 30px 25px;
-  color: #fff;
-  background: #57aacd;
+  padding: 25px 25px 25px;
+  #color: #fff;
+  border: 1px solid #57aacd;
+  background: #f4f4f4 none repeat scroll 0 0;
 }
 .info-box dt,
 .info-box dd {
@@ -1181,7 +1182,8 @@ table tr:nth-child(even) {
 header {
   padding-top: 24px;
   background: #fff;
-  background-color: #f4f4f4
+  background-color: #f4f4f4;
+ 
 }
 header .brand {
   float: left;
@@ -1246,6 +1248,7 @@ main {
   background-position: center top;
   background-attachment: scroll;
   background-color: rgb(228, 228, 228);
+  padding-top: 32px;
 }
 main .container.hr {
   padding-bottom: 50px;

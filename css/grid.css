@@ -206,6 +206,13 @@ input[type='button']::-moz-focus-inner {
 .container .grid_4 {
   width: 370px;
 }
+.container .grid_4_2 {
+  width: 740px;
+}
+.container .grid_4_2  img {
+ float: left;
+ margin: 10px;
+ }
 .container .grid_5 {
   width: 470px;
 }

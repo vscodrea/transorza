@@ -2,7 +2,7 @@
 	global $wordingArray;
 	//head	
 	$wordingArray['head_title'] = 'Trans Orza';
-	$wordingArray['head_subtitle'] = 'Transporturi rutiere de marfuri.';
+	$wordingArray['head_subtitle'] = 'Transport rutier de marfuri';
 	$wordingArray['head_phone'] = '+40 768 101 010';
 	$wordingArray['head_page_in_progress'] = 'Pagina in lucru. Continutul acestei pagini este demonstrativ.Vom reveni.';
 	//heade menu
@@ -14,6 +14,14 @@
 	$wordingArray['head_menu_tc'] = 'Termeni si conditii';
 	$wordingArray['head_menu_language'] = 'Română';
 	$wordingArray['head_menu_flag_path'] = 'ro-flag-icon.png';
+	
+	//home page
+	$wordingArray['page_home_title'] = 'SC TRANS ORZA SRL';
+	$wordingArray['page_home_subtitle'] = 'Bine ati venit!';
+	$wordingArray['page_home_continue_button'] = 'Continuare';
+	$wordingArray['page_home_text'] = 'Film de prezentareLorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatu. Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt. Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatu. Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt. Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.';
+	
+	
 	
 	
 	//about us page
