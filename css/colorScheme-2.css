@@ -146,10 +146,10 @@ table tr:nth-child(even) {
   color: #777777;
 }
 
-header a[href^="callto:"] {
+header a[href^="tel:"] {
   color: #777777;
 }
-header a[href^="callto:"]:before {
+header a[href^="tel:"]:before {
   color: #00cae5;
 }
 
@@ -194,6 +194,6 @@ footer section + section .container {
   background: #01BBD4;
 }
 
-a[href^="callto:"]:hover {
+a[href^="tel:"]:hover {
   color: #01BBD4;
 }

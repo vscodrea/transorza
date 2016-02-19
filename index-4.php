@@ -36,6 +36,7 @@
         <section class="well1">
           <div class="container">
             <h2><?php get_wording('page_contact_label_contact_form');?></h2>
+			<h3><?php get_wording('page_contact_label_contact_form_subtitle');?></h3>
             <form method="post" action="bat/rd-mailform.php" class="mailform off2">
               <input type="hidden" name="form-type" value="contact">
               <fieldset class="row">
@@ -51,10 +52,14 @@
                 <label class="grid_12">
                   <textarea name="message" placeholder="Mesaj:" data-constraints="@NotEmpty"></textarea>
                 </label>
-                <div class="mfControls grid_12">
+				 <label class="grid_12 borcan" style="display: none;">
+                  <input type="text" class="borcan" name="borcan" >
+                </label>
+			    <div class="mfControls grid_12">
                   <button type="submit" class="btn"><?php get_wording('page_contact_label_submit_form');?></button>
                 </div>
               </fieldset>
+			  
             </form>
           </div>
         </section>

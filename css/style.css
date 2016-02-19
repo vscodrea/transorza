@@ -80,7 +80,7 @@ a:active {
 }
 
 a[href^="tel:"],
-a[href^="callto:"] {
+a[href^="tel:"] {
   color: inherit;
   text-decoration: none;
 }
@@ -680,11 +680,11 @@ blockquote p + cite {
 .contact-list .box + .box {
   margin-top: 30px;
 }
-.contact-list a[href^="callto:"] {
+.contact-list a[href^="tel:"] {
   font-size: 24px;
 }
 @media (min-width: 768px) and (max-width: 979px) {
-  .contact-list a[href^="callto:"] {
+  .contact-list a[href^="tel:"] {
     font-size: 18px;
   }
 }
@@ -699,7 +699,7 @@ blockquote p + cite {
 .contact-list2 h3 {
   color: #42acda;
 }
-.contact-list2 a[href^="callto:"] {
+.contact-list2 a[href^="tel:"] {
   font-size: 24px;
   line-height: 28px;
 }
@@ -1188,35 +1188,35 @@ header {
 header .brand {
   float: left;
 }
-header a[href^="callto:"],
+header a[href^="tel:"],
 header .container > p {
   clear: right;
   float: right;
 }
-header a[href^="callto:"] {
+header a[href^="tel:"] {
   margin-top: 7px;
   position: relative;
   font-size: 24px;
   color: #777777;
 }
-header a[href^="callto:"]:before {
+header a[href^="tel:"]:before {
   position: absolute;
   top: -4px;
   left: -44px;
   font-size: 34px;
   color: #6bc7ed;
 }
-header a[href^="callto:"]:hover {
+header a[href^="tel:"]:hover {
   color: map;
 }
-header a[href^="callto:"] + p {
+header a[href^="tel:"] + p {
   margin-top: 7px;
 }
 @media (max-width: 979px) {
   header {
     text-align: center;
   }
-  header .brand, header a[href^="callto:"], header .container > p {
+  header .brand, header a[href^="tel:"], header .container > p {
     float: none;
   }
   header .brand {
@@ -1225,7 +1225,7 @@ header a[href^="callto:"] + p {
   header .brand_slogan {
     padding-left: 0;
   }
-  header a[href^="callto:"] {
+  header a[href^="tel:"] {
     display: inline-block;
     margin-top: 20px;
   }
@@ -1263,7 +1263,7 @@ main p + a[href^="mailto:"]:hover {
   text-decoration: underline;
 }
 
-a[href^="callto:"]:hover {
+a[href^="tel:"]:hover {
   color: #62bfe6;
 }
 

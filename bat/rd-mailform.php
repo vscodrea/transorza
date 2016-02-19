@@ -21,7 +21,9 @@ $template .= '<i><pre>{message}</pre></i>';
 
 $template .= '</body></html>';
 
-
+ if ($_POST['borcan'] != '') {
+        die('MF003');
+ }
 
 
 try {

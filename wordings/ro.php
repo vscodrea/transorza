@@ -17,6 +17,7 @@
 	
 	//home page
 	$wordingArray['page_home_title'] = 'SC TRANS ORZA SRL';
+	$wordingArray['page_home_fb_text'] = 'Trans Orza pe Facebook';
 	$wordingArray['page_home_subtitle'] = 'Bine ati venit!';
 	$wordingArray['page_home_continue_button'] = 'Continuare';
 	$wordingArray['page_home_text'] = 'Film de prezentareLorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatu. Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt. Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatu. Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt. Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.';
@@ -42,6 +43,7 @@
 	$wordingArray['page_contact_label_company_zipcode'] = 'Cod Postal';
 	$wordingArray['page_contact_label_company_phone_email'] = 'Telefon & Email';
 	$wordingArray['page_contact_label_contact_form'] = 'Formular de contact';
+	$wordingArray['page_contact_label_contact_form_subtitle'] = 'Contactati-ne cu incredere.Va vom raspunde in cel mai scurt timp.';
 	$wordingArray['page_contact_label_submit_form'] = 'Trimite';
 	
 	
