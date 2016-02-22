@@ -66,19 +66,29 @@
 									<div class="box_aside">
 										<div class="icon2 fa-envelope"></div>
 									</div>
-									<div class="box_cnt__no-flow"><a href="mailto:#">conact@transorza.ro</a></div>
+									<div class="box_cnt__no-flow"><a href="mailto:conact@transorza.ro">conact@transorza.ro</a></div>
 								</div>
 								<div class="box">
 									<div class="box_aside">
 										<div class="icon2 fa-phone"></div>
 									</div>
-									<div class="box_cnt__no-flow"><a href="tel:<?php get_wording('head_phone');?>"><?php get_wording('head_phone');?></a></div>
+									<div class="box_cnt__no-flow">
+										<a href="tel:<?php get_wording('page_home_phone1');?>">
+											<?php get_wording('page_home_phone1');?>
+										</a>
+										<br />
+										<a href="tel:<?php get_wording('page_home_phone2');?>">
+											<?php get_wording('page_home_phone2');?>
+										</a>
+									</div>
 								</div>
 								<div class="box">
 								  <div class="box_aside">
 									<div class="icon2 fa-fax"></div>
 								  </div>
-								  <div class="box_cnt__no-flow"><a href="tel:#">800-2345-6790</a></div>
+								  <div class="box_cnt__no-flow"><a href="tel:<?php get_wording('page_home_phone3');?>">
+											<?php get_wording('page_home_phone3');?><br />(fax)
+										</a></div>
 								</div>
 							  </li>
                         </ul>

@@ -78,93 +78,17 @@
 			
           </div>
         </section>
-		<!--
-        <section>
-          <div class="container banner_wr">
-            <ul class="banner">
-              <li>
-                <div class="fa-globe"></div>
-                <h3>Global<br/>research</h3>
-                <p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p><a href="#"></a>
-              </li>
-              <li>
-                <div class="fa-lightbulb-o"></div>
-                <h3>Creative<br/>ideas</h3>
-                <p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p><a href="#"></a>
-              </li>
-              <li>
-                <div class="fa-cog"></div>
-                <h3>New<br/>services</h3>
-                <p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p><a href="#"></a>
-              </li>
-              <li>
-                <div class="fa-briefcase"></div>
-                <h3>Pro<br/>management</h3>
-                <p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p><a href="#"></a>
-              </li>
-            </ul>
-          </div>
-        </section> -->
-		<!--
-        <section class="well ins1">
-          <div class="container hr">
-            <ul class="row product-list">
-              <li class="grid_6">
-                <div class="box wow fadeInRight">
-                  <div class="box_aside">
-                    <div class="icon fa-comments"></div>
-                  </div>
-                  <div class="box_cnt__no-flow">
-                    <h3><a href="#">Incididunt ut labore et dolore</a></h3>
-                    <p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolor.</p>
-                  </div>
-                </div>
-                <hr>
-                <div data-wow-delay="0.2s" class="box wow fadeInRight">
-                  <div class="box_aside">
-                    <div class="icon fa-calendar-o"></div>
-                  </div>
-                  <div class="box_cnt__no-flow">
-                    <h3><a href="#">Incididunt ut labore et dolore</a></h3>
-                    <p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolor.</p>
-                  </div>
-                </div>
-              </li>
-              <li class="grid_6">
-                <div data-wow-delay="0.3s" class="box wow fadeInRight">
-                  <div class="box_aside">
-                    <div class="icon fa-group"></div>
-                  </div>
-                  <div class="box_cnt__no-flow">
-                    <h3><a href="#">Incididunt ut labore et dolore</a></h3>
-                    <p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolor.</p>
-                  </div>
-                </div>
-                <hr>
-                <div data-wow-delay="0.4s" class="box wow fadeInRight">
-                  <div class="box_aside">
-                    <div class="icon fa-thumbs-up"></div>
-                  </div>
-                  <div class="box_cnt__no-flow">
-                    <h3><a href="#">Incididunt ut labore et dolore</a></h3>
-                    <p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolor.</p>
-                  </div>
-                </div>
-              </li>
-            </ul>
-          </div>
-        </section>
-	-->
+		
         <section class="well1">
           <div class="container">
             <div class="row">
 				<div class="grid_4_2">
 					<h2><?php get_wording('page_home_title');?></h2>
-					<?php get_wording('page_home_subtitle');?>
+					<h3><?php get_wording('page_home_subtitle');?></h3>
 					<hr />
 					<img src="images/page-1_img011.jpg" alt="">
-					<p><?php get_wording('page_home_text');?>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatu. Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt. Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
-					<a href="#" class="btn"><?php get_wording('page_home_continue_button');?></a>
+					<p><?php get_wording('page_home_text');?></p>
+					<a href="index-1.php" class="btn"><?php get_wording('page_home_continue_button');?></a>
 				</div>
 				<div class="grid_4">
 					<div class="info-box">
@@ -175,26 +99,38 @@
 										<div class="icon2 fa-map-marker"></div>
 									</div>
 									<div class="box_cnt__no-flow">
-										<address>Giulesti nr 450, Jud. Maramures, Romania<br/> Zip Code: 437160</address>
+										<address><?php get_wording('page_home_address');?></address>
 									</div>
 								</div>
 								<div class="box">
 									<div class="box_aside">
 										<div class="icon2 fa-envelope"></div>
 									</div>
-									<div class="box_cnt__no-flow"><a href="mailto:#">contact@transorza.ro</a></div>
+									<div class="box_cnt__no-flow"><a href="mailto:contact@transorza.ro">contact@transorza.ro</a></div>
 								</div>
 								<div class="box">
 									<div class="box_aside">
 										<div class="icon2 fa-phone"></div>
 									</div>
-									<div class="box_cnt__no-flow"><a href="tel:<?php get_wording('head_phone');?>"><?php get_wording('head_phone');?></a></div>
+									<div class="box_cnt__no-flow">
+										<a href="tel:<?php get_wording('page_home_phone1');?>">
+											<?php get_wording('page_home_phone1');?>
+										</a>
+										<br />
+										<a href="tel:<?php get_wording('page_home_phone2');?>">
+											<?php get_wording('page_home_phone2');?>
+										</a>
+									</div>
 								</div>
 								<div class="box">
 									<div class="box_aside">
 										<div class="icon2 fa-fax"></div>
 									</div>
-									<div class="box_cnt__no-flow"><a href="tel:#">800-2345-6790</a></div>
+									<div class="box_cnt__no-flow">
+										<a href="tel:<?php get_wording('page_home_phone3');?>">
+											<?php get_wording('page_home_phone3');?><br />(fax)
+										</a>
+									</div>
 								</div>
 								<div class="box">
 									<div class="box_aside">

@@ -13,13 +13,16 @@
 	function get_language_file(){
 		$host = $_SERVER['HTTP_HOST'];
 		switch($host){
-			case 'transorza.ro' :
+			case 'transorza.ro':
+			case  'localhost.transorza.ro' :
 				return 'ro.php';
 			break;
-			case 'transorza.com' :
+			case 'transorza.com':
+			case 'localhost.transorza.com' :
 				return 'en.php';
 			break;
-			case 'de.transorza.com' :
+			case 'de.transorza.com':
+			case 'localhost.de.transorza.com' :
 				return 'de.php';
 			break;
 			default :
