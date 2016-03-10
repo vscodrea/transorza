@@ -21,6 +21,7 @@
 	$wordingArray['page_home_fb_text'] = 'Trans Orza pe Facebook';
 	$wordingArray['page_home_subtitle'] = 'Bine aţi venit!';
 	$wordingArray['page_home_continue_button'] = 'Continuare';
+	$wordingArray['page_home_email'] = 'contact@transorza.ro';
 	$wordingArray['page_home_text'] = 'Trans Orza S.R.L. a fost înfiinţată în anul 1997 ca o afacere de familie. Ne-am afirmat mai întâi pe piaţa internă,
 	mai apoi, datorită serviciilor noastre competitive şi de bună calitate, am ajuns să efectuăm operaţiuni de transport în numeroase ţări din Uniunea Europeană,
 	cât şi în spaţiul extracomunitar.</br></br>Începând cu anul 2002 am înregistrat o creştere continuă, atât în ceea ce priveşte serviciile şi numărul de angajaţi, cât şi portofoliul de clienţi.

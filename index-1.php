@@ -107,14 +107,9 @@
                                   FOOTER
       ========================================================
       -->
-      <footer>
-        <section>
-          <div class="container">
-             <div class="copyright">Trans Orza S.R.L © <span id="copyright-year"></span>.&nbsp;&nbsp;<a href="index-5.php">Politica de Confidentialitate</a>
-            </div>
-          </div>
-        </section>
-      </footer>
+    <?php
+      	include_once "./includes/footer.tpl"; 
+	?>
     </div>
     <script src="js/script.js"></script>
   </body>

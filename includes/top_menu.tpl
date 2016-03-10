@@ -5,8 +5,8 @@
 				<li <?php if ('index.php' == $scriptName){?>class="active"<?php };?>>
 					<a href="./"><?php get_wording('head_menu_home');?></a>
                 </li>
-                <li <?php if ('index-1.php' == $scriptName){?>class="active"<?php };?>>
-					<a href="index-1.php"><?php get_wording('head_menu_about_us');?></a>
+                <li <?php if ('about-us' == $scriptName){?>class="active"<?php };?>>
+					<a href="about-us"><?php get_wording('head_menu_about_us');?></a>
 					<!--<ul>
 						<li><a href="#">Lorem ipsum dolor</a></li>
 						<li><a href="#">Conse ctetur adipisicing</a></li>
@@ -24,11 +24,11 @@
 						<li><a href="#">Ut enim ad minim</a></li>
 					</ul>-->
                 </li>
-                <li <?php if ('index-2.php' == $scriptName){?>class="active"<?php };?>><a href="index-2.php"><?php get_wording('head_menu_photo_title');?></a>
+                <li <?php if ('photos' == $scriptName){?>class="active"<?php };?>><a href="photos"><?php get_wording('head_menu_photo_title');?></a>
                 </li>
-                <li <?php if ('index-3.php' == $scriptName){?>class="active"<?php };?>><a href="index-3.php"><?php get_wording('head_menu_our_services');?></a>
+                <li <?php if ('our-services' == $scriptName){?>class="active"<?php };?>><a href="our-services"><?php get_wording('head_menu_our_services');?></a>
                 </li>
-                <li <?php if ('index-4.php' == $scriptName){?>class="active"<?php };?>><a href="index-4.php"><?php get_wording('head_menu_contact');?></a>
+                <li <?php if ('contact' == $scriptName){?>class="active"<?php };?>><a href="contact"><?php get_wording('head_menu_contact');?></a>
                 </li>
               </ul>
 			  <ul class="language_menu">

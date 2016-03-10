@@ -1,0 +1,15 @@
+
+RewriteEngine on
+RewriteRule ^/?about-us$ /index-1.php
+
+RewriteEngine on
+RewriteRule ^/?photos$ /index-2.php
+
+RewriteEngine on
+RewriteRule ^/?our-services$ /index-3.php
+
+RewriteEngine on
+RewriteRule ^/?contact$ /index-4.php
+
+RewriteEngine on
+RewriteRule ^/?terms-conditions$ /index-5.php

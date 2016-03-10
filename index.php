@@ -88,7 +88,7 @@
 					<hr />
 					<img src="images/page-1_img011.jpg" alt="">
 					<p><?php get_wording('page_home_text');?></p>
-					<a href="index-1.php" class="btn"><?php get_wording('page_home_continue_button');?></a>
+					<a href="about-us" class="btn"><?php get_wording('page_home_continue_button');?></a>
 				</div>
 				<div class="grid_4">
 					<div class="info-box">
@@ -106,7 +106,11 @@
 									<div class="box_aside">
 										<div class="icon2 fa-envelope"></div>
 									</div>
-									<div class="box_cnt__no-flow"><a href="mailto:contact@transorza.ro">contact@transorza.ro</a></div>
+									<div class="box_cnt__no-flow">
+										<a href="mailto:<?php get_wording('page_home_email');?>">
+											<?php get_wording('page_home_email');?>
+										</a>
+									</div>
 								</div>
 								<div class="box">
 									<div class="box_aside">
@@ -151,14 +155,9 @@
                                   FOOTER
       ========================================================
       -->
-      <footer>
-        <section>
-          <div class="container">
-             <div class="copyright">Trans Orza S.R.L © <span id="copyright-year"></span>.&nbsp;&nbsp;<a href="index-5.php">Politica de Confidentialitate</a>
-            </div>
-          </div>
-        </section>
-      </footer>
+	<?php
+      	include_once "./includes/footer.tpl"; 
+	?>
     </div>
     <script src="js/script.js"></script>
   </body>
