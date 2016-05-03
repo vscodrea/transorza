@@ -3,7 +3,7 @@ global $wordingArray;
 // Kopf
 $wordingArray['head_title'] = 'Trans Orza';
 $wordingArray['head_subtitle'] = 'Lkw-Transport-Dienstleistungen - volle Kraft voraus ';
-$wordingArray['head_phone'] = '+40 768 101 010';
+$wordingArray['head_phone'] = '+ 40 768 101 010';
 $wordingArray['head_page_in_progress'] = '+400-2345-679';
 // Leiter Menü
 $wordingArray['head_menu_home'] = 'Home';

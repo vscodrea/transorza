@@ -211,7 +211,7 @@ input[type='button']::-moz-focus-inner {
 }
 .container .grid_4_2  img {
  float: left;
- margin: 10px;
+ margin: 24px 30px 20px 0;
  }
 .container .grid_5 {
   width: 470px;
@@ -298,6 +298,9 @@ input[type='button']::-moz-focus-inner {
   }
   .container .grid_4 {
     width: 300px;
+  }
+  .container .grid_4_2 {
+    width: 620px;
   }
   .container .grid_5 {
     width: 380px;

@@ -3,9 +3,9 @@
 	//head	
 	$wordingArray['head_title'] = 'Trans Orza';
 	$wordingArray['head_subtitle'] = 'Transport rutier de mărfuri';
-	$wordingArray['head_phone'] = '+40 768 101 010';
-	$wordingArray['head_phone1'] = '+40 768 101 010';
-	$wordingArray['head_phone2'] = '+40 723 101 015';
+	$wordingArray['head_phone'] = '+ 40 768 101 010';
+	$wordingArray['head_phone1'] = '+ 40 768 101 010';
+	$wordingArray['head_phone2'] = '+ 40 723 101 015';
 	//heade menu
 	$wordingArray['head_menu_home'] = 'Acasă';
 	$wordingArray['head_menu_about_us'] = 'Despre Noi';

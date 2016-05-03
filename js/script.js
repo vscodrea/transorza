@@ -228,8 +228,8 @@ var o = $('#camera');
         $(document).ready(function () {
             o.camera({
                 autoAdvance: true,
-                height: '30.859375%',
-                minHeight: '350px',
+                height: '31%',
+                // minHeight: '350px',
                 pagination: false,
                 thumbnails: false,
                 playPause: false,

@@ -8,7 +8,7 @@
 
 @media (max-width: 1134.17722px) {
   .camera_container {
-    padding-bottom: 350px;
+    padding-bottom: 30%;
   }
 }
 .camera_wrap {
@@ -225,6 +225,9 @@
     line-height: 42px;
     padding: 0 20px;
   }
+  .camera_container {
+    padding-bottom: 40%;
+  }
 }
 
 .camera_pag_ul {
@@ -281,14 +284,14 @@
 }
 
 .camera_next {
-  right: 132px;
+  right: 30px;
 }
 .camera_next:before {
   content: "\f105";
 }
 
 .camera_prev {
-  left: 132px;
+  left: 30px;
 }
 .camera_prev:before {
   content: "\f104";

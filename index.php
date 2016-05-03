@@ -85,9 +85,8 @@
 				<div class="grid_4_2">
 					<h2><?php get_wording('page_home_title');?></h2>
 					<h3><?php get_wording('page_home_subtitle');?></h3>
-					<hr />
 					<img src="images/page-1_img011.jpg" alt="">
-					<p><?php get_wording('page_home_text');?></p>
+					<p class="txt-justify"><?php get_wording('page_home_text');?></p>
 					<a href="about-us" class="btn"><?php get_wording('page_home_continue_button');?></a>
 				</div>
 				<div class="grid_4">
