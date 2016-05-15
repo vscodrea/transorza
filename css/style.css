@@ -266,7 +266,7 @@ p + .btn_wr {
   padding-left: 20px;
   padding-bottom: 4px;
   font-size: 24px;
-  color: #FFFFFF;
+  #color: #FFFFFF;
   vertical-align: bottom;
 }
 .brand a:hover {
@@ -1212,7 +1212,7 @@ table tr:nth-child(even) {
 header {
   padding-top: 24px;
   background: #fff;
-  background-color: #2D2D2D;
+ # background-color: #2D2D2D;
  
 }
 header .brand {
@@ -1227,7 +1227,7 @@ header a[href^="tel:"] {
   margin-top: 7px;
   position: relative;
   font-size: 20px;
-  color: #FFFFFF;
+  #color: #FFFFFF;
 }
 header a[href^="tel:"]:before {
   position: absolute;
