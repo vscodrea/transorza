@@ -5,6 +5,9 @@
 	include_once "./includes/header.tpl"; 
 	?>
   <body>
+    <?php 
+        include_once('./includes/analyticstracking.php');
+    ?>   
     <div class="page">
       <!--
       ========================================================

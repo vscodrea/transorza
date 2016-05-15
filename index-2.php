@@ -5,6 +5,9 @@
 	include_once "./includes/header.tpl"; 
 	?>
   <body>
+     <?php 
+        include_once('./includes/analyticstracking.php');
+     ?>    
 	<!-- Core CSS file -->
 	<link rel="stylesheet" href="css/photoswipe/photoswipe.css"> 
 
