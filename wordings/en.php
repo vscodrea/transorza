@@ -14,8 +14,29 @@
 	$wordingArray['head_menu_contact'] = 'Contact';
 	$wordingArray['head_menu_tc'] = 'Terms and conditions';
 	$wordingArray['head_menu_language'] = 'English';
-	$wordingArray['head_menu_flag_path'] = 'ro-flag-icon.png';
+	$wordingArray['head_menu_flag_path'] = 'uk-flag-icon.png';
 	
+      
+      //header meta info
+    $wordingArray['meta_description_home'] = 'Trans Orza srl. Truck transportations company located in Maramures county, Romania';
+	$wordingArray['meta_description_about_us'] = 'Trans Orza srl. Location & contact info';
+    $wordingArray['meta_description_photo_gallery'] = 'Trans Orza srl. Photo Gallery';
+    $wordingArray['meta_description_our_services'] = 'Trans Orza srl. The services that we offer.';
+    $wordingArray['meta_description_contact'] = 'Trans Orza srl. Contact form';
+    $wordingArray['meta_description_terms_and_conds'] = 'Trans Orza srl. Terms and conditions';
+    $wordingArray['meta_description_video'] = 'Trans Orza srl. Video';
+      //page title
+    $wordingArray['page_title_home'] = 'Trans Orza srl. Home';
+	$wordingArray['page_title_about_us'] = 'Trans Orza srl. About us';
+    $wordingArray['page_title_photo_gallery'] = 'Photo Gallery';
+    $wordingArray['page_title_our_services'] = 'Our Services';
+    $wordingArray['page_title_contact'] = 'Contact';
+    $wordingArray['page_title_terms_and_conds'] = 'Terms and Conditions';
+    $wordingArray['page_title_video'] = 'Video';
+    
+    
+    
+    
 	//home page
 	$wordingArray['page_home_title'] = 'SC TRANS ORZA SRL';
 	$wordingArray['page_home_fb_text'] = 'Trans Orza on Facebook';
@@ -23,11 +44,11 @@
 	$wordingArray['page_home_continue_button'] = 'More about us';
 	$wordingArray['page_home_email'] = 'contact@transorza.ro';
 	$wordingArray['page_home_text'] = 'Trans Orza was established in 1997 as a family business.We started by providing services for the romanian market and as our service became more competitive and qualitative we started to perform transport operations in numerous countries of the European Union and outside.
-<br /><br />Since 2002, we have succeeded  in a continuous development in terms of services,employees, and client portofolio. Nowadays, our company comprises 30 drivers, while the total number of employees is 40. 
-<br /><br />Our vehicle fleet includes 30 trucks, whereof 20 mega (100 mc) and 10 normal. 25 trucks are equipped with  pit (COIL),  and are designed for international shipments of sheet metal . Additionally, we also carry 35 semi-trailers. 
-<br /><br />Since 2015 Trans Orza S.R.L moved to a new head-office, in the town of Giuleşti. This new facility includes, besides the offices,  a modern service workshop, equipped with four channels.
-.
-	';
+    <br /><br />Since 2002, we have succeeded  in a continuous development in terms of services,employees, and client portofolio. Nowadays, our company comprises 30 drivers, while the total number of employees is 40. 
+    <br /><br />Our vehicle fleet includes 30 trucks, whereof 20 mega (100 mc) and 10 normal. 25 trucks are equipped with  pit (COIL),  and are designed for international shipments of sheet metal . Additionally, we also carry 35 semi-trailers. 
+    <br /><br />Since 2015 Trans Orza S.R.L moved to a new head-office, in the town of Giuleşti. This new facility includes, besides the offices,  a modern service workshop, equipped with four channels.
+    .'
+    ;
 	$wordingArray['page_home_address'] = 'Giuleşti nr 450,<br/>Maramureş County, Romania<br/> Zip Code: 437160';
 	$wordingArray['page_home_phone1'] = '+40 768 101 010';
 	$wordingArray['page_home_phone2'] = '+40 723 101 015';

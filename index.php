@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
-    <?php 
+    <?php
         include_once('./libs/autoload.php');
+        $metaDescriptionText = get_wording('meta_description_home', false);
+        $pageTitle = get_wording('page_title_home', false);
         include_once "./includes/header.tpl"; 
     ?>
     <body>

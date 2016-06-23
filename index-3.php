@@ -2,7 +2,9 @@
 <html lang="en">
     <?php 
         include_once('./libs/autoload.php');
-	include_once "./includes/header.tpl"; 
+        $metaDescriptionText = get_wording('meta_description_our_services', false);
+        $pageTitle = get_wording('page_title_our_services', false);
+        include_once "./includes/header.tpl"; 
     ?>
     <body>
         <?php 

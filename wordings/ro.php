@@ -15,7 +15,28 @@
 	$wordingArray['head_menu_tc'] = 'Termeni şi condiţii';
 	$wordingArray['head_menu_language'] = 'Română';
 	$wordingArray['head_menu_flag_path'] = 'ro-flag-icon.png';
+    
+      
+      //header meta info
+    $wordingArray['meta_description_home'] = 'Trans Orza srl. Companie de transport cu camioanele localizata in Maramures';
+	$wordingArray['meta_description_about_us'] = 'Trans Orza srl. Localizare si date de contact';
+    $wordingArray['meta_description_photo_gallery'] = 'Trans Orza srl. Galerie Photo';
+    $wordingArray['meta_description_our_services'] = 'Trans Orza srl. Servicii oferite de noi.';
+    $wordingArray['meta_description_contact'] = 'Trans Orza srl. Formular de contact';
+    $wordingArray['meta_description_terms_and_conds'] = 'Trans Orza srl. Termeni si conditii';
+    $wordingArray['meta_description_video'] = 'Trans Orza srl. Video';
+      //page title
+    $wordingArray['page_title_home'] = 'Trans Orza srl. Acasa';
+	$wordingArray['page_title_about_us'] = 'Trans Orza srl. Despre noi';
+    $wordingArray['page_title_photo_gallery'] = 'Galerie Photo';
+    $wordingArray['page_title_our_services'] = 'Serviciile noastre';
+    $wordingArray['page_title_contact'] = 'Contact';
+    $wordingArray['page_title_terms_and_conds'] = 'Termeni si conditii';
+    $wordingArray['page_title_video'] = 'Video';
+    
 	
+    
+    
 	//home page
 	$wordingArray['page_home_title'] = 'SC TRANS ORZA SRL';
 	$wordingArray['page_home_fb_text'] = 'Trans Orza pe Facebook';

@@ -2,6 +2,8 @@
 <html lang="en">
   <?php 
 	include_once('./libs/autoload.php');
+    $metaDescriptionText = get_wording('meta_description_terms_and_conds', false);
+    $pageTitle = get_wording('page_title_terms_and_conds', false);
 	include_once "./includes/header.tpl"; 
 	?>
   <body>
@@ -31,7 +33,7 @@
       <main>
         <section class="well1">
           <div class="container">
-            <h2><?php get_wording('page_terms_cond_title');?>Politica de confidentialitate</h2>
+            <h2><?php get_wording('page_terms_cond_title');?></h2>
             <h3 class="off1 primary"><?php get_wording('page_terms_cond_text');?></h3>
           </div>
         </section>

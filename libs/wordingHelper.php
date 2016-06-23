@@ -1,19 +1,24 @@
 <?php
 	
-	function get_wording($key){
-		 global $wordingArray;
+	function get_wording($key, $echoRez = true){
+		global $wordingArray;
 		if (!empty($wordingArray[$key])){
-			echo $wordingArray[$key];
+            $rez = $wordingArray[$key];
 		} else {
-			echo '';
+			$rez = '';
 		}		
-	
+        if ($echoRez){
+            echo $rez;
+        } else {
+            return $rez; 
+        }
 	}
+    
 	
 	function get_language_file(){
 		$host = $_SERVER['HTTP_HOST'];
 		switch($host){
-			case 'transorza.ro':
+            case 'transorza.ro':
 			case  'localhost.transorza.ro' :
 				return 'ro.php';
 			break;

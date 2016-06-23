@@ -2,6 +2,8 @@
 <html lang="en">
   <?php 
 	include_once('./libs/autoload.php');
+    $metaDescriptionText = get_wording('meta_description_photo_gallery', false);
+    $pageTitle = get_wording('page_title_photo_gallery', false);
 	include_once "./includes/header.tpl"; 
 	?>
   <body>

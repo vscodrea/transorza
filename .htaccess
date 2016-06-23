@@ -1,6 +1,6 @@
 
 RewriteEngine on
-RewriteBase /transorza
+RewriteBase /
 
 RewriteRule ^/?about-us$ index-1.php
 RewriteRule ^/?photos$ index-2.php

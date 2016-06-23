@@ -1,8 +1,8 @@
   <head>
-    <title><?php get_wording('head_home_title');?></title>
+    <title><?php echo $pageTitle; ?></title>
     <meta charset="utf-8">
     <meta name="format-detection" content="telephone=no">
-    <meta name="description" content="Trans orza srl. A truck transportation company located in Maramures".>
+    <meta name="description" content="<?php echo $metaDescriptionText; ?>" >
 	<link rel="icon" href="images/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/grid.css">
 	<link rel="stylesheet" href="css/dropit.css">
