@@ -19,10 +19,12 @@
 		$host = $_SERVER['HTTP_HOST'];
 		switch($host){
             case 'transorza.ro':
+            case 'www.transorza.ro':    
 			case  'localhost.transorza.ro' :
 				return 'ro.php';
 			break;
 			case 'transorza.com':
+            case 'www.transorza.com':    
 			case 'localhost.transorza.com' :
 				return 'en.php';
 			break;
