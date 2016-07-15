@@ -16,24 +16,29 @@
     
 	
 	function get_language_file(){
+		return get_language . '.php';
+	}
+    
+    function get_language(){
 		$host = $_SERVER['HTTP_HOST'];
 		switch($host){
             case 'transorza.ro':
             case 'www.transorza.ro':    
 			case  'localhost.transorza.ro' :
-				return 'ro.php';
+				return 'ro';
 			break;
 			case 'transorza.com':
             case 'www.transorza.com':    
 			case 'localhost.transorza.com' :
-				return 'en.php';
+				return 'en';
 			break;
 			case 'de.transorza.com':
+            case 'www.de.transorza.com':    
 			case 'localhost.de.transorza.com' :
-				return 'de.php';
+				return 'de';
 			break;
 			default :
-				return 'ro.php';
+				return 'ro';
 		};
 	}
 	

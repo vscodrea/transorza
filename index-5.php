@@ -1,7 +1,9 @@
+<?php 
+    include_once('./libs/autoload.php');
+?>  
 <!DOCTYPE html>
-<html lang="en">
+<html lang="<?php echo get_language();?>">
   <?php 
-	include_once('./libs/autoload.php');
     $metaDescriptionText = get_wording('meta_description_terms_and_conds', false);
     $pageTitle = get_wording('page_title_terms_and_conds', false);
 	include_once "./includes/header.tpl"; 
