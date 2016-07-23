@@ -28,7 +28,8 @@ var initPhotoSwipeFromDOM = function(gallerySelector) {
             item = {
                 src: linkEl.getAttribute('href'),
                 w: parseInt(size[0], 10),
-                h: parseInt(size[1], 10)
+                h: parseInt(size[1], 10),
+                pid: i+1
             };
 
 
@@ -92,7 +93,7 @@ var initPhotoSwipeFromDOM = function(gallerySelector) {
         }
 
 
-
+    
         if(index >= 0) {
             // open PhotoSwipe if valid index found
             openPhotoSwipe( index, clickedGallery );
@@ -124,7 +125,7 @@ var initPhotoSwipeFromDOM = function(gallerySelector) {
         if(params.gid) {
             params.gid = parseInt(params.gid, 10);
         }
-
+        
         return params;
     };
 
@@ -141,7 +142,7 @@ var initPhotoSwipeFromDOM = function(gallerySelector) {
 
             // define gallery index (for URL)
             galleryUID: galleryElement.getAttribute('data-pswp-uid'),
-
+            galleryPIDs: true,
             getThumbBoundsFn: function(index) {
                 // See Options -> getThumbBoundsFn section of documentation for more info
                 var thumbnail = items[index].el.getElementsByTagName('img')[0], // find thumbnail
@@ -202,4 +203,4 @@ var initPhotoSwipeFromDOM = function(gallerySelector) {
 };
 
 // execute above function
-initPhotoSwipeFromDOM('.my-gallery');
+initPhotoSwipeFromDOM('.my-gallery .row.off2');
