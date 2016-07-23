@@ -41,7 +41,7 @@
 	$wordingArray['page_home_email'] = 'transorza@yahoo.com';
 	$wordingArray['page_home_text'] = 'Die Firma Trans Orza GmbH wurde im Jahr 1997 gegründet als ein Familiengeschäft. Erst erschienen wir auf innländischen Märkten,
 	später gelangten wir in zahlreiche Länder der EU und ausserhalb der EU, dank unserer guten und qualitativen Dienstleistungen führten wir Transporte durch .</br></br>Ab 2002 hatten wir ein kontinuierliches Wachstum betr. unsere Dienstleistungen, Zahl der Angestellten und Geschäftsbereich von Kunden.</br></br>
-	Zur Zeit, verfügt unsere Firma über 30 LKW-Fahrer; die Gesamtzahl der Angestellten ist 40. Unser Fuhrpark zählt zur Zeit 30 LKW-s, von denen 20 Mega(100 m3) und 10 Normale LKW-s. 25 von unseren Aufliegern sind Coil Mulde 
+	Zur Zeit, verfügt unsere Firma über 30 LKW-Fahrer; die Gesamtzahl der Angestellten ist 40. Unser Fuhrpark zählt zur Zeit 30 LKW-s, von denen 20 Mega(100 m3) und 10 Normale LKW-s. 25 von unseren Aufliegern sind <a href="/photos#&gid=1&pid=42" style="color: #62bfe6;" target="_blanck">COIL</a> Mulde 
 	und sind bestimmt für internationalen Transport von Blechwalzen.
 	Wir verfügen insgesamt über 35 Auflieger.
 	</br></br>
@@ -82,7 +82,7 @@
 	$wordingArray['page_our_services_item1_title'] = 'Transport von allgemeinen Waren';
 	$wordingArray['page_our_services_item1_text'] = 'Wir sichern Transport für jede Warenart, sowohl für Firmen, als auch für physische Personen.';
 	$wordingArray['page_our_services_item2_title'] = 'Transport von Blechwalzen';
-	$wordingArray['page_our_services_item2_text'] = 'Wir verfügen über 25 Coil-Mulde Auflieger, für Transport von Blechwalzen.';
+	$wordingArray['page_our_services_item2_text'] = 'Wir verfügen über 25 <a href="/photos#&gid=1&pid=42" style="color: #62bfe6;" target="_blanck">COIL</a>-Mulde Auflieger, für Transport von Blechwalzen.';
 	$wordingArray['page_our_services_item3_title'] = 'Service-Werkstatt für LKW-s';
 	$wordingArray['page_our_services_item3_text'] = 'Wir verfügen über eine moderne, komplett ausgerüstete Service- Werkstatt, vorgesehen mit vier Arbeitskanälen.Wir sichern diese Dienstleistung nur für LKW-s und Maschinen.';
 	$wordingArray['page_our_services_item4_title'] = 'Autowäsche';

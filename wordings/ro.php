@@ -48,7 +48,7 @@
 	cât şi în spaţiul extracomunitar.</br></br>Începând cu anul 2002 am înregistrat o creştere continuă, atât în ceea ce priveşte serviciile şi numărul de angajaţi, cât şi portofoliul de clienţi.
 	În prezent, compania noastră are un număr de 30 de şoferi, numărul total al angajaţilor fiind de 40.</br></br>
 	Flota noastră numără în prezent 30 de camioane din care 20 mega(100 mc) şi 10 normale. Din totalul camioanelor noastre 25 dintre ele sunt
-	echipate cu fosă(COIL) şi sunt destinate transportului internaţional de tablă metalică.
+	echipate cu fosă(<a href="/photos#&gid=1&pid=42" style="color: #62bfe6;" target="_blanck">COIL</a>) şi sunt destinate transportului internaţional de tablă metalică.
 	Pe lângă aceste camioane mai dispunem şi de 35 de semiremorci.
 	</br></br>
 	Începând cu anul 2015 Trans Orza S.R.L s-a mutat în noul sediu din localitatea Giuleşti. Acest nou sediu cuprinde, pe lângă birourile firmei şi
@@ -86,7 +86,7 @@
 	$wordingArray['page_our_services_item1_title'] = 'Transport marfă generală';
 	$wordingArray['page_our_services_item1_text'] = 'Asigurăm transport pentru orice tip de marfă, atât pentru companii, cât şi pentru persoane fizice.';
 	$wordingArray['page_our_services_item2_title'] = 'Transport tablă metalică';
-	$wordingArray['page_our_services_item2_text'] = 'Dispunem de 25 de camioane COIL destinate transportului de tablă metalică.';
+	$wordingArray['page_our_services_item2_text'] = 'Dispunem de 25 de camioane <a href="/photos#&gid=1&pid=42" style="color: #62bfe6;" target="_blanck">COIL</a> destinate transportului de tablă metalică.';
 	$wordingArray['page_our_services_item3_title'] = 'Service auto pentru camioane';
 	$wordingArray['page_our_services_item3_text'] = 'Dispunem de un service modern,complet utilat şi dotat cu 4 canale.Asigurăm service numai pentru camioane şi utilaje. ';
 	$wordingArray['page_our_services_item4_title'] = 'Spălătorie Auto';

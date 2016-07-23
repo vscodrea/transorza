@@ -45,7 +45,7 @@
 	$wordingArray['page_home_email'] = 'contact@transorza.ro';
 	$wordingArray['page_home_text'] = 'Trans Orza was established in 1997 as a family business.We started by providing services for the romanian market and as our service became more competitive and qualitative we started to perform transport operations in numerous countries of the European Union and outside.
     <br /><br />Since 2002, we have succeeded  in a continuous development in terms of services,employees, and client portofolio. Nowadays, our company comprises 30 drivers, while the total number of employees is 40. 
-    <br /><br />Our vehicle fleet includes 30 trucks, whereof 20 mega (100 mc) and 10 normal. 25 trucks are equipped with  pit (COIL),  and are designed for international shipments of sheet metal . Additionally, we also carry 35 semi-trailers. 
+    <br /><br />Our vehicle fleet includes 30 trucks, whereof 20 mega (100 mc) and 10 normal. 25 trucks are equipped with  pit (<a href="/photos#&gid=1&pid=42" style="color: #62bfe6;" target="_blanck">COIL</a>),  and are designed for international shipments of sheet metal . Additionally, we also carry 35 semi-trailers. 
     <br /><br />Since 2015 Trans Orza S.R.L moved to a new head-office, in the town of Giuleşti. This new facility includes, besides the offices,  a modern service workshop, equipped with four channels.
     .'
     ;
@@ -81,7 +81,7 @@
 	$wordingArray['page_our_services_item1_title'] = 'Road transport of goods';
 	$wordingArray['page_our_services_item1_text'] = 'We provide transportation for any kind of goods, both for companies, and for legal entity.';
 	$wordingArray['page_our_services_item2_title'] = 'Transport of sheet metal ';
-	$wordingArray['page_our_services_item2_text'] = 'We have 25 COIL trailers, designed for sheet metal transport.';
+	$wordingArray['page_our_services_item2_text'] = 'We have 25 <a href="/photos#&gid=1&pid=42" style="color: #62bfe6;" target="_blanck">COIL</a> trailers, designed for sheet metal transport.';
 	$wordingArray['page_our_services_item3_title'] = 'Truck Service';
 	$wordingArray['page_our_services_item3_text'] = 'We have a modern service, properly equipped and. We provide service for trucks and machinery.';
 	$wordingArray['page_our_services_item4_title'] = 'Car Wash';
