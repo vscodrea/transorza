@@ -16,7 +16,7 @@
     
 	
 	function get_language_file(){
-		return get_language . '.php';
+		return get_language(). '.php';
 	}
     
     function get_language(){
