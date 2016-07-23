@@ -137,19 +137,19 @@
                                     <figcaption itemprop="caption description"><!--Image caption  1--></figcaption>
                                 </figure>
                                 <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-                                    <a href="images/gallery/image_15.JPG" itemprop="contentUrl" data-size="806x888">
+                                    <a href="images/gallery/image_15.JPG" itemprop="contentUrl" data-size="806x1203">
                                         <img src="images/gallery/image_15.JPG" style="height: 130px; width: 87px;" itemprop="thumbnail" alt="Image description" />
                                     </a>
                                     <figcaption itemprop="caption description"><!--Image caption  1--></figcaption>
                                 </figure>
                                 <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-                                    <a href="images/gallery/image_16.JPG" itemprop="contentUrl" data-size="806x888">
-                                        <img src="images/gallery/image_16.JPG" style="height: 130px; width: 87px;" itemprop="thumbnail" alt="Image description" />
+                                    <a href="images/gallery/image_16.JPG" itemprop="contentUrl" data-size="806x1432">
+                                        <img src="images/gallery/image_16.JPG" style="height: 130px; width: 87px" itemprop="thumbnail" alt="Image description" />
                                     </a>
                                     <figcaption itemprop="caption description"><!--Image caption  1--></figcaption>
                                 </figure>
                                 <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-                                    <a href="images/gallery/image_17.JPG" itemprop="contentUrl" data-size="806x888">
+                                    <a href="images/gallery/image_17.JPG" itemprop="contentUrl" data-size="806x1203">
                                         <img src="images/gallery/image_17.JPG" style="height: 130px; width: 87px;" itemprop="thumbnail" alt="Image description" />
                                     </a>
                                     <figcaption itemprop="caption description"><!--Image caption  1--></figcaption>
@@ -163,6 +163,18 @@
                                 <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
                                     <a href="images/gallery/image_19.JPG" itemprop="contentUrl" data-size="1334x888">
                                         <img src="images/gallery/image_19.JPG" style="width: 200px;" itemprop="thumbnail" alt="Image description" />
+                                    </a>
+                                    <figcaption itemprop="caption description"><!--Image caption  1--></figcaption>
+                                </figure>
+                                <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                                    <a href="images/gallery/image_25.jpg" itemprop="contentUrl" data-size="1334x888">
+                                        <img src="images/gallery/image_25.jpg" style="width: 200px;" itemprop="thumbnail" alt="Image description" />
+                                    </a>
+                                    <figcaption itemprop="caption description"><!--Image caption  1--></figcaption>
+                                </figure>
+                                <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                                    <a href="images/gallery/image_26.jpg" itemprop="contentUrl" data-size="1334x888">
+                                        <img src="images/gallery/image_26.jpg" style="width: 200px;" itemprop="thumbnail" alt="Image description" />
                                     </a>
                                     <figcaption itemprop="caption description"><!--Image caption  1--></figcaption>
                                 </figure>
